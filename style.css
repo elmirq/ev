@@ -45,3 +45,17 @@ transform: translateY(100vh) scale(0);
     transform: translateY(-10VH) scale(1);
 }
 }
+
+.text{
+
+    width: 800px;
+    height: 1200px;
+    padding: 80px;
+    border-radius: 4px;
+    box-shadow: 0 5px 9px #02bfee;
+    text-align: center;
+    background-color: #4fc3dc44;
+    color: #01fff2;
+    margin: auto;
+    margin-bottom: 15px;
+}
