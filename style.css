@@ -9,5 +9,39 @@ min-height: 100vh;
 background-color: #0c192c;
 }
 .cnt{
+position: relative;
+width: 100%;
+height: 100vh;
+overflow: hidden;
+}
+.sar{
+position: relative;
+display: flex;
 
+}
+
+.sar span {
+position: relative;
+width: 30px;
+height: 30px;
+background-color: #4fc3dc;
+margin: 0 4px ;
+border-radius: 50%;
+box-shadow: 0 0 0 10px #4fc3dc44, 0 0 50px #4fc3dc,
+0 0 100px #4fc3dc;
+animation: animate 15s linear infinite;
+
+
+
+
+}
+@keyframes animate 
+{
+0%
+{
+transform: translateY(100vh) scale(0);
+}
+{
+    transform: translateY(-10VH) scale(1);
+}
 }
